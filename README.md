@@ -1,5 +1,5 @@
 # SteganographyIBM
-message hidding in Image
+Message hidding in Image
 Steganography is the hiding of a secret message within an ordinary message and the extraction of it at its destination. Here we use an image to hide the textual message.
 
 The encoding of the secret content is performed using the well acknowledged encryption algorithm, LSB encoding, which is to perform mainpuation to LSB values of the byte, which in this case is the pixel value R,G and B.
@@ -11,4 +11,12 @@ JPEG images cannot be used for carrying the message because the hidden content i
 The pograms Encoder and Decoder are used to encode and decode secret image into carrier image. Both communicating parties must have the same pair if encoder and decoder program inorder to function properly.
 
 REQUIREMENTS
+opencv-python/ opencv-python package of python is neccessay to run the program. The instruction to install PIL is given below:
+pip install opencv-python
+pip install opencv-python
+orginal_image is the carrier image.
+
+encrypted_image is the carrier image with hidden data, also this is the image which we transmit via network.
+
+Here program encoder is ran, and the user is asked enter the message that is to be transmitted and at reciver's end decoder program will print the hidden message to the user's terminal.
 
