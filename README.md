@@ -11,6 +11,7 @@ JPEG images cannot be used for carrying the message because the hidden content i
 The pograms Encoder and Decoder are used to encode and decode secret image into carrier image. Both communicating parties must have the same pair if encoder and decoder program inorder to function properly.
 
 REQUIREMENTS
+
 opencv-python/ opencv-python package of python is neccessay to run the program. The instruction to install PIL is given below:
 pip install opencv-python
 pip install opencv-python
